@@ -113,7 +113,7 @@ endfunction()
 # Test case registry — add new ops here.
 # --------------------------------------------------------------------------
 set(ALL_TESTCASES
-    tadd
+    tsel
 )
 
 if((TEST_CASE IN_LIST ALL_TESTCASES) OR (TEST_CASE STREQUAL "all"))
